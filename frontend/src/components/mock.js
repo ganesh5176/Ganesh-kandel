@@ -93,6 +93,8 @@ export const mockData = {
       technologies: ["Java", "Database Systems", "OOP"],
       status: "Completed",
       github: "https://github.com/ganeshkandel/library-management",
+      purpose: "Academic coursework project demonstrating object-oriented programming principles and database integration skills",
+      role: "Solo developer - designed architecture, implemented core features, and integrated database functionality",
       highlights: [
         "Object-oriented design implementation",
         "Database integration for data persistence",
@@ -106,6 +108,8 @@ export const mockData = {
       technologies: ["Python", "AI Algorithms", "Game Logic"],
       status: "Completed",
       github: "https://github.com/ganesh5176/Tic-tac-toe-with-AI",
+      purpose: "Personal project to explore AI algorithms and game development while creating an engaging single-player experience",
+      role: "Solo developer - implemented game logic, AI strategy algorithms, and user interface design",
       highlights: [
         "AI opponent with strategic gameplay",
         "Clean user interface",
