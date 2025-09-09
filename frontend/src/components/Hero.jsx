@@ -25,6 +25,10 @@ const Hero = ({ data }) => {
 
       <div className="container mx-auto text-center relative z-10">
         <div className="max-w-4xl mx-auto">
+          <div className="mb-4">
+            <p className="text-2xl md:text-3xl text-slate-300 font-light">Hi there! 👋</p>
+          </div>
+          
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
             {data.name}
           </h1>
