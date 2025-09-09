@@ -5,8 +5,19 @@ import { GraduationCap, Award, Users, Globe } from 'lucide-react';
 
 const About = ({ data }) => {
   return (
-    <section id="about" className="py-20 px-6 bg-slate-800">
-      <div className="container mx-auto">
+    <section id="about" className="py-20 px-6 bg-slate-800 relative">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwzfHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzU3NDM3MDQxfDA&ixlib=rb-4.1.0&q=85"
+          alt="Professional tech workspace"
+          className="w-full h-full object-cover"
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-slate-800/90"></div>
+      </div>
+
+      <div className="container mx-auto relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">About Me</h2>
           <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
@@ -14,10 +25,10 @@ const About = ({ data }) => {
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <Card className="bg-slate-700 border-slate-600">
+            <Card className="bg-slate-700/80 backdrop-blur-sm border-slate-600">
               <CardContent className="p-8">
                 <p className="text-slate-300 text-lg leading-relaxed mb-6">
-                  {data.statement}
+                  I'm studying computer science.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-6 mt-8">
@@ -60,19 +71,19 @@ const About = ({ data }) => {
             <div className="mt-8">
               <h4 className="text-lg font-semibold text-white mb-4">Personal Interests</h4>
               <div className="flex flex-wrap gap-2">
-                <Badge variant="secondary" className="bg-slate-600 text-slate-200">
+                <Badge variant="secondary" className="bg-slate-600/80 backdrop-blur-sm text-slate-200">
                   Cybersecurity
                 </Badge>
-                <Badge variant="secondary" className="bg-slate-600 text-slate-200">
+                <Badge variant="secondary" className="bg-slate-600/80 backdrop-blur-sm text-slate-200">
                   AI & Machine Learning
                 </Badge>
-                <Badge variant="secondary" className="bg-slate-600 text-slate-200">
+                <Badge variant="secondary" className="bg-slate-600/80 backdrop-blur-sm text-slate-200">
                   Fitness & Gym
                 </Badge>
-                <Badge variant="secondary" className="bg-slate-600 text-slate-200">
+                <Badge variant="secondary" className="bg-slate-600/80 backdrop-blur-sm text-slate-200">
                   Volunteer Work
                 </Badge>
-                <Badge variant="secondary" className="bg-slate-600 text-slate-200">
+                <Badge variant="secondary" className="bg-slate-600/80 backdrop-blur-sm text-slate-200">
                   Mental Health Advocacy
                 </Badge>
               </div>

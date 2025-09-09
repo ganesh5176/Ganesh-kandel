@@ -10,7 +10,7 @@ export const mockData = {
     }
   },
   about: {
-    statement: "As a young enthusiast stepping into cybersecurity, I'm eager to enhance my people skills and leave a mark in the IT field. Fresh from excelling in my GCSEs and AS Levels, I'm motivated to explore computing. My customer service background equips me to excel under pressure and collaborate seamlessly seeking part time role.",
+    statement: "I'm studying computer science.",
     highlights: [
       "BSc Computer Science at Queen's University, Belfast",
       "Cyber Security Level 3 (Expected Grade: A*A*A)",
@@ -26,7 +26,6 @@ export const mockData = {
       { name: "Python", level: 85 },
       { name: "JavaScript", level: 75 },
       { name: "HTML/CSS", level: 90 },
-      { name: "PHP", level: 70 },
       { name: "Git", level: 75 },
       { name: "Database Systems", level: 70 },
       { name: "Web Development", level: 80 }

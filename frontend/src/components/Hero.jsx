@@ -11,8 +11,19 @@ const Hero = ({ data }) => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center pt-20 px-6">
-      <div className="container mx-auto text-center">
+    <section id="hero" className="min-h-screen flex items-center justify-center pt-20 px-6 relative">
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <img 
+          src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwxfHx3b3Jrc3BhY2V8ZW58MHx8fHwxNzU3NDM3MDQxfDA&ixlib=rb-4.1.0&q=85"
+          alt="Professional workspace"
+          className="w-full h-full object-cover"
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-slate-900/85"></div>
+      </div>
+
+      <div className="container mx-auto text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
             {data.name}
