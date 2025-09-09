@@ -4,7 +4,7 @@ export const mockData = {
     title: "Computer Science Student & Aspiring Cybersecurity Professional",
     description: "Driven by a deep curiosity for the world of IT and passionate about the latest breakthroughs in artificial intelligence and computer science, I am dedicated to exploring emerging technologies and innovative solutions.",
     social: {
-      github: "https://github.com/ganeshkandel",
+      github: "https://github.com/ganesh5176",
       linkedin: "https://linkedin.com/in/ganeshkandel",
       email: "ganeshkandel1012@gmail.com"
     }
