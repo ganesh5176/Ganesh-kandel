@@ -40,6 +40,23 @@ const Projects = ({ data }) => {
               
               <CardContent>
                 <div className="space-y-6">
+                  {/* Project Purpose and Role */}
+                  <div>
+                    <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wide mb-3">
+                      Project Purpose
+                    </h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                      {project.purpose}
+                    </p>
+                    
+                    <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wide mb-3">
+                      My Role
+                    </h4>
+                    <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                      {project.role}
+                    </p>
+                  </div>
+
                   {/* Technologies */}
                   <div>
                     <h4 className="text-sm font-semibold text-slate-400 uppercase tracking-wide mb-3">
