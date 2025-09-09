@@ -31,6 +31,10 @@ const About = ({ data }) => {
                   I'm studying computer science.
                 </p>
                 
+                <p className="text-slate-300 text-lg leading-relaxed mb-6">
+                  Driven by a deep curiosity for the world of IT and passionate about the latest breakthroughs in artificial intelligence and computer science, I am dedicated to exploring emerging technologies and innovative solutions.
+                </p>
+                
                 <div className="grid grid-cols-2 gap-6 mt-8">
                   <div className="text-center">
                     <GraduationCap className="w-8 h-8 text-blue-400 mx-auto mb-2" />
