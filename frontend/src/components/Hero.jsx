@@ -38,7 +38,7 @@ const Hero = ({ data }) => {
           </h2>
           
           <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            {data.description}
+            I am Ganesh.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
