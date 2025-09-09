@@ -78,7 +78,7 @@ export const mockData = {
       period: "2023",
       type: "Project Work",
       responsibilities: [
-        "Worked on Banking App development project with Fintru",
+        "Worked on an app based on the problem statement provided by Fintru as part of a banking app development project",
         "Collaborated in teamwork and creative problem-solving",
         "Mixed skills including coding, design, and testing",
         "Presented final solution to company executives",
