@@ -39,7 +39,7 @@ const About = ({ data }) => {
                   </div>
                   <div className="text-center">
                     <Award className="w-8 h-8 text-green-400 mx-auto mb-2" />
-                    <h4 className="font-semibold text-white">Expected Grade</h4>
+                    <h4 className="font-semibold text-white">Grade</h4>
                     <p className="text-sm text-slate-400">A*A*A in Cyber Security</p>
                   </div>
                   <div className="text-center">
