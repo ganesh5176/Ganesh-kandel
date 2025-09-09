@@ -49,7 +49,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold text-white mb-4">Let's Connect</h4>
             <div className="flex space-x-4 mb-4">
               <a
-                href="https://github.com/ganeshkandel"
+                href="https://github.com/ganesh5176"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-white transition-colors duration-200 transform hover:scale-110"
