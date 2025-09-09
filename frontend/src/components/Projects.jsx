@@ -112,7 +112,7 @@ const Projects = ({ data }) => {
             <Button
               variant="outline"
               className="border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white"
-              onClick={() => window.open('https://github.com/ganeshkandel', '_blank')}
+              onClick={() => window.open('https://github.com/ganesh5176', '_blank')}
             >
               <Github className="w-4 h-4 mr-2" />
               Follow on GitHub
