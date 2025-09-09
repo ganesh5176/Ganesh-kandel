@@ -30,16 +30,12 @@ const Hero = ({ data }) => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
-            {data.name}
+            I'm Ganesh.
           </h1>
           
           <h2 className="text-xl md:text-2xl text-slate-300 mb-8 font-light">
             {data.title}
           </h2>
-          
-          <p className="text-lg md:text-xl text-slate-400 mb-12 max-w-3xl mx-auto leading-relaxed">
-            I am Ganesh.
-          </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
