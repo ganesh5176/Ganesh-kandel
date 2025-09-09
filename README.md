@@ -4,24 +4,19 @@ A modern, responsive portfolio website showcasing my journey as a Computer Scien
 ## 🌟 Live Demo
 
 **Frontend:** [https://dev-kandel.preview.emergentagent.com](https://dev-kandel.preview.emergentagent.com)
-**Backend API:** [https://dev-kandel.preview.emergentagent.com/api](https://dev-kandel.preview.emergentagent.com/api)
 
 ## 📋 Table of Contents
 
 - [Features](#features)
-- [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [API Documentation](#api-documentation)
 - [Testing](#testing)
-- [Deployment](#deployment)
 - [Contact](#contact)
 
 ## ✨ Features
 
 ### Frontend Features
 - **Modern Design**: Clean, professional interface with smooth animations and hover effects
-- **Responsive Layout**: Fully optimized for desktop, tablet, and mobile devices (tested on 375px-1920px)
+- **Responsive Layout**: Fully optimised for desktop, tablet, and mobile devices (tested on 375px-1920px)
 - **Interactive Navigation**: Fixed header with smooth scrolling to sections
 - **Professional Hero Section**: Friendly greeting with professional background imagery
 - **Comprehensive Sections**:
@@ -81,30 +76,6 @@ portfolio-website/
    - Backend API: [http://localhost:8000](http://localhost:8000)
    - API Documentation: [http://localhost:8000/docs](http://localhost:8000/docs)
 
-## 📚 API Documentation
-
-### Endpoints
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/api/` | Health check endpoint |
-| GET | `/api/status` | Retrieve all status checks |
-| POST | `/api/status` | Create a new status check |
-
-### Example API Usage
-
-```bash
-# Health check
-curl -X GET "https://dev-kandel.preview.emergentagent.com/api/"
-
-# Get all status checks
-curl -X GET "https://dev-kandel.preview.emergentagent.com/api/status"
-
-# Create a status check
-curl -X POST "https://dev-kandel.preview.emergentagent.com/api/status" \
-  -H "Content-Type: application/json" \
-  -d '{"client_name": "test_client"}'
-```
 
 ## 🧪 Testing
 
@@ -140,7 +111,5 @@ Computer Science Student & Aspiring Cybersecurity Professional
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-
 
 *Built with ❤️ by Ganesh Kandel | Last updated: September 2025*
