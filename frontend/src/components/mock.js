@@ -105,7 +105,7 @@ export const mockData = {
       description: "An interactive Tic-Tac-Toe game featuring an AI opponent, allowing solo gameplay with intelligent computer moves.",
       technologies: ["Python", "AI Algorithms", "Game Logic"],
       status: "Completed",
-      github: "https://github.com/ganeshkandel/tic-tac-toe-ai",
+      github: "https://github.com/ganesh5176/Tic-tac-toe-with-AI",
       highlights: [
         "AI opponent with strategic gameplay",
         "Clean user interface",
