@@ -14,7 +14,7 @@ const Hero = ({ data }) => {
     <section id="hero" className="min-h-screen flex items-center justify-center pt-20 px-6">
       <div className="container mx-auto text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white">
             {data.name}
           </h1>
           
